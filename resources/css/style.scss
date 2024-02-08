@@ -1,0 +1,61 @@
+// styles.scss
+
+@import "./Sass/Utilities/variables";
+@import "./Sass/Utilities/themes";
+@import "./Sass/Components/accordion";
+@import "./Sass/Components/accrediation";
+@import "./Sass/Components/buttons";
+@import "./Sass/Components/card";
+@import "./Sass/Components/footer";
+@import "./Sass/Components/nav";
+@import "./Sass/Utilities/assets";
+@import "./Sass/Utilities/global";
+
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.meet-div {
+  background-image: linear-gradient(rgba(0, 36, 78, 0.4), rgba(0, 36, 78, 0.9)), url(https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/a43817ad-5225-43a0-bd29-0d66e87dde59.png); 
+  height: 20rem;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+
+.person-smile {
+  border-radius: 9px;
+  width: 468px;
+  transform: translate(100px, 20px);
+}
+
+
+.testimony {
+  background: linear-gradient($ink-blue 23rem, #fff 23rem);
+}
+
+
+.f6 {
+  font-size: 36px;
+}
+
+
+.ug-head {
+  margin-top: 6rem;
+}
+
+.wsnw {
+
+  white-space: nowrap;
+}
+  
+.graduate {
+  padding: 5rem;
+}
+ 
+  
+  
+ 
+  
