@@ -209,7 +209,6 @@ h4 {
   font-size: 18px;
   color: #00244e;
   font-weight: 900;
-  white-space: nowrap;
   font-family: "Oswald", sans-serif;
 }
 
@@ -246,11 +245,6 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 576px) {
-  section {
-    margin: 2.5rem 0 2.5rem 0;
-  }
-}
 /* Font size */
 /* 18px */
 /*20 px*/
@@ -372,7 +366,6 @@ h4 {
   font-size: 18px;
   color: #00244e;
   font-weight: 900;
-  white-space: nowrap;
   font-family: "Oswald", sans-serif;
 }
 
@@ -409,17 +402,12 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 576px) {
-  section {
-    margin: 2.5rem 0 2.5rem 0;
-  }
-}
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .meet-div {
-  background-image: linear-gradient(rgba(0, 36, 78, 0.4), rgba(0, 36, 78, 0.9)), url(https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/a43817ad-5225-43a0-bd29-0d66e87dde59.png);
+  background-image: linear-gradient(rgba(0, 36, 78, 0.8), rgba(0, 36, 78, 0.8)), url(https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/a43817ad-5225-43a0-bd29-0d66e87dde59.png);
   height: 20rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -427,9 +415,13 @@ body {
 }
 
 .person-smile {
+  display: none;
+}
+
+.laptop-img {
   border-radius: 9px;
-  width: 468px;
-  transform: translate(100px, 20px);
+  width: 100%;
+  max-width: 30rem;
 }
 
 .testimony {
@@ -445,9 +437,60 @@ body {
 }
 
 .wsnw {
-  white-space: nowrap;
+  white-space: normal;
 }
 
-.graduate {
-  padding: 5rem;
+@media screen and (min-width: 330px) {
+  .testimony {
+    background: linear-gradient(#00244e 41rem, #fff 41rem);
+  }
+}
+@media screen and (min-width: 390px) {
+  .testimony {
+    background: linear-gradient(#00244e 40rem, #fff 40rem);
+  }
+}
+@media screen and (min-width: 425px) {
+  .testimony {
+    background: linear-gradient(#00244e 36rem, #fff 36rem);
+  }
+}
+@media screen and (min-width: 539px) {
+  .testimony {
+    background: linear-gradient(#00244e 30rem, #fff 30rem);
+  }
+}
+@media screen and (min-width: 768px) {
+  .testimony {
+    background: linear-gradient(#00244e 23rem, #fff 23rem);
+  }
+}
+@media screen and (min-width: 990px) {
+  .testimony {
+    background: linear-gradient(#00244e 18rem, #fff 18rem);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .testimony {
+    background: linear-gradient(#00244e 17rem, #fff 17rem);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .person-smile {
+    border-radius: 9px;
+    width: 468px;
+    transform: translate(100px, 20px);
+    display: block;
+  }
+  .testimony {
+    background: linear-gradient(#00244e 26rem, #fff 26rem);
+  }
+  .wsnw {
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .testimony {
+    background: linear-gradient(#00244e 24rem, #fff 24rem);
+  }
 }/*# sourceMappingURL=style.css.map */

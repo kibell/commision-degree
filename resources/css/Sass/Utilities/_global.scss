@@ -30,7 +30,6 @@ h4 {
   font-size: 18px;
   color: $ink-blue;
   font-weight: 900;
-  white-space: nowrap;
   font-family: $oswald;
 }
 
@@ -65,14 +64,4 @@ a {
 color: $heritage;
 font-weight: 700;
 text-decoration: none;
-}
-
-@media only screen and (max-width: $breakpoint-sm) { 
-
-  section {
-    margin: 2.5rem 0 2.5rem 0;
-  }
-
-  
-
 }
