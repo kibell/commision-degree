@@ -34,6 +34,7 @@ body {
   border-radius: 9px;
   width: 100%;
   max-width: 30rem;
+  float: right;
 }
 
 
@@ -110,8 +111,8 @@ body {
 @media screen and (min-width: 1200px) {
   .person-smile {
     border-radius: 9px;
-    width: 468px;
-    transform: translate(100px, 20px);
+    width: 477px;
+    float: right;
     display: block;
   }
 
